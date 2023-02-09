@@ -1,0 +1,19 @@
+server:
+  port: 8084
+
+spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5433/db_inhabitant
+#    username: postgres
+#    password: postgres
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+      database: test
+#    redis:
+#      host: localhost
+#      port: 6379
+#  cache:
+#    type:
+#      redis
+
